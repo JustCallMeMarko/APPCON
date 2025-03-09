@@ -7,7 +7,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 
 public class ChatbotAPI {
-    private static final String API_KEY = "AIzaSyCTvgrFSuC0oVGfqp_NsKoAM_ivJMI1U1c";
+    private static final String API_KEY = "API_KEY"; // Replace na lang
     private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + API_KEY;
 
     public interface ResponseCallback {
